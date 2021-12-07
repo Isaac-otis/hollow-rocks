@@ -21,7 +21,7 @@ body {
 img,
 video {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 h1{
@@ -32,11 +32,13 @@ h1{
   width: 550px;
   opacity: 1;
   position: relative;
+  left: 50px;
   transform: scaleX(1.2);
   line-height: 2;
 }
 h2{
   position: center;
+  max-width: 50%;
 
 }
 h3{
@@ -46,9 +48,10 @@ h3{
   color: #3626A7;
   width: 550px;
   opacity: 1;
-  transform: scaleX(-1.2);
+  transform: scaleX(1.2);
   line-height: 2;
   position: relative;
+  left: 200px;
 }
 h4{
   font-family: "Roboto Mono", monospace;
@@ -59,12 +62,14 @@ h4{
   opacity: 1;
   transform: scaleX(1.2);
   line-height: 2;
+  position: relative;
+  left: 200px;
 }
 header {
   background-color: #ffffff;
 }
 .container {
-  border: 2px dotted teal;
+  border: 2px solid white;
 }
 .nav {
   background-color: #ef3340;
