@@ -36,3 +36,20 @@ h1{
   transform: scaleX(1.2);
   line-height: 2;
 }
+h2{
+  position: relative;
+  left: 500px;
+}
+h3{
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-size: 20px;
+  color: #3626A7;
+  width: 550px;
+  opacity: 1;
+  position: relative;
+  right: -500px;
+  transform: scaleX(-1.2);
+  line-height: 2;
+}
+
