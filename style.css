@@ -31,14 +31,13 @@ h1{
   color: #3626A7;
   width: 550px;
   opacity: 1;
-  position: relative;
-  left: 500px;
+  position: absolute;
   transform: scaleX(1.2);
   line-height: 2;
 }
 h2{
-  position: relative;
-  left: 500px;
+  position: center;
+
 }
 h3{
   font-family: "Roboto Mono", monospace;
@@ -47,9 +46,63 @@ h3{
   color: #3626A7;
   width: 550px;
   opacity: 1;
-  position: relative;
-  right: -500px;
   transform: scaleX(-1.2);
   line-height: 2;
+  position: relative;
+  right: 100px;
+}
+h4{
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-size: 20px;
+  color: #3626A7;
+  width: 550px;
+  opacity: 1;
+  transform: scaleX(1.2);
+  line-height: 2;
+}
+header {
+  background-color: #ffffff;
+}
+.container {
+  border: 2px dotted teal;
+}
+.nav {
+  background-color: #ef3340;
+}
+.content {
+  background-color: #809EAC;
+}
+footer {
+  background-color: lavender;
 }
 
+/* Padding */
+header, 
+.nav,
+.content,
+footer {
+  padding: 1em;
+}
+.holy-grail-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.content {
+  flex-grow: 1;
+}
+.nav, .ads {
+  flex: 0 0 12em;
+}
+
+@media screen and (min-width: 43.75em) {
+  .container {
+    flex-direction: row;
+  }
+}
