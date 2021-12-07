@@ -31,7 +31,7 @@ h1{
   color: #3626A7;
   width: 550px;
   opacity: 1;
-  position: absolute;
+  position: relative;
   transform: scaleX(1.2);
   line-height: 2;
 }
@@ -49,13 +49,12 @@ h3{
   transform: scaleX(-1.2);
   line-height: 2;
   position: relative;
-  right: 100px;
 }
 h4{
   font-family: "Roboto Mono", monospace;
   font-style: italic;
   font-size: 20px;
-  color: #3626A7;
+  color: #ef3340;
   width: 550px;
   opacity: 1;
   transform: scaleX(1.2);
@@ -74,7 +73,7 @@ header {
   background-color: #809EAC;
 }
 footer {
-  background-color: lavender;
+  background-color: #3626A7;
 }
 
 /* Padding */
@@ -92,7 +91,8 @@ footer {
 .container {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  flex-basis: auto;
+  justify-content: space-between;
 }
 .content {
   flex-grow: 1;
@@ -101,7 +101,7 @@ footer {
   flex: 0 0 12em;
 }
 
-@media screen and (min-width: 43.75em) {
+@media screen and (min-width: 40em) {
   .container {
     flex-direction: row;
   }
