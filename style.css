@@ -23,3 +23,16 @@ video {
   height: auto;
   max-width: 100%;
 }
+
+h1{
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-size: 20px;
+  color: #3626A7;
+  width: 550px;
+  opacity: 1;
+  position: relative;
+  left: 500px;
+  transform: scaleX(1.2);
+  line-height: 2;
+}
