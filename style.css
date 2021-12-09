@@ -67,6 +67,7 @@ h4{
 }
 header {
   background-color: #ffffff;
+  opacity: 1%;
 }
 .container {
   border: 2px solid white;
@@ -108,12 +109,12 @@ footer {
   flex: 0 0 12em;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 1000px) {
   .container {
     flex-direction: row;
   }
-  button.addEventListener("click", function() {
-    
-  }
-  sectionTag.classList.toggle("new-class");
-});
+  @media screen and (min-width: 1000px) {
+  html {
+    background-color: #36454F;
+    background-size: contain;
+    background-repeat: no-repeat;
