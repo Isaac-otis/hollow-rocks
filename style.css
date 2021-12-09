@@ -58,7 +58,7 @@ h4 {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
   font-size: 26px;
-  color: #809EAC;
+  color: white;
   width: 550px;
   opacity: 1;
   transform: scaleX(1.2);
@@ -83,7 +83,10 @@ header {
 desert {
   background-color: #3626A7;
 }
-
+gif {
+  position: sticky;
+  max-width: 50%;
+}
 /* Padding */
 header,
 .rocks,
