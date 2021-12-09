@@ -6,7 +6,9 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -24,7 +26,7 @@ video {
   max-width: 50%;
 }
 
-h1{
+h1 {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
   font-size: 18px;
@@ -36,12 +38,11 @@ h1{
   transform: scaleX(1.2);
   line-height: 2;
 }
-h2{
+h2 {
   position: center;
   max-width: 50%;
-
 }
-h3{
+h3 {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
   font-size: 18px;
@@ -53,7 +54,7 @@ h3{
   position: relative;
   left: 200px;
 }
-h4{
+h4 {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
   font-size: 26px;
@@ -72,23 +73,22 @@ header {
 .container {
   border: 2px solid white;
 }
-.nav {
+.rocks {
   background-color: #ef3340;
   width: 800px;
 }
-.content {
+.river {
   background-color: #809EAC;
-  
 }
-footer {
+desert {
   background-color: #3626A7;
 }
 
 /* Padding */
-header, 
-.nav,
-.content,
-footer {
+header,
+.rocks,
+.river,
+desert {
   padding: 1em;
 }
 .holy-grail-wrapper {
@@ -102,10 +102,11 @@ footer {
   flex-basis: auto;
   justify-content: space-between;
 }
-.content {
+.river {
   flex-grow: 1;
 }
-.nav, .ads {
+.rocks,
+.ads {
   flex: 0 0 12em;
 }
 
@@ -113,8 +114,11 @@ footer {
   .container {
     flex-direction: row;
   }
-  @media screen and (min-width: 1000px) {
+}
+@media screen and (min-width: 1000px) {
   html {
     background-color: #36454F;
     background-size: contain;
     background-repeat: no-repeat;
+  }
+}
