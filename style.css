@@ -17,7 +17,6 @@ body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
-    overflow-x: hidden;
 }
 
 /* images and videos max out at full width */
@@ -137,17 +136,17 @@ button {
   }
 }
 
-/* this prevents the page from scrolling horizontally */
 .ticker {
   display: flex;
-  flex-direction: row;
+
 }
 .ticker__list {
   display: flex;
-  flex-direction: row;
   margin-top: 20px;
-  animation: ticker 15s infinite linear;
+  animation: ticker 5s infinite linear;
 }  
 .ticker__item {
-  margin-right: 10px;
+}
+body {
+  overflow-x: hidden;
 }
