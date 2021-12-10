@@ -1,4 +1,4 @@
-// We'll create two constants
+ // We'll create two constants
 const sectionTag = document.querySelector("section");
 const button = document.querySelector("button");
 
