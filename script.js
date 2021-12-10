@@ -3,5 +3,5 @@ const sectionTag = document.querySelector("section");
 const button = document.querySelector("button");
 
 button.addEventListener("click", function() {
-  sectionTag.classList.toggle("new-class");
+sectionTag.classList.toggle("new-class");
 });
