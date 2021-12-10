@@ -48,7 +48,7 @@ h2 {
   position: relative;
   left: 50px;
   transform: scaleX(1.2);
-  line-height: 2;
+  line-height: 3;
 }
 h3 {
   font-family: "Roboto Mono", monospace;
@@ -60,7 +60,7 @@ h3 {
   position: relative;
   left: 50px;
   transform: scaleX(1.2);
-  line-height: 2;
+  line-height: 1;
 }
 gif {
   position: sticky;
@@ -89,10 +89,11 @@ button {
   flex-direction: column;
   flex-basis: auto;
   justify-content: flex-start;
+  min-width: 100wh;
 }
 .rocks {
   background-color: #ef3340;
-  flex-grow: 3;
+  flex-grow: 2;
 }
 .river {
   background-color: #809EAC;
@@ -100,9 +101,11 @@ button {
 }
 .desert {
   background-color: #3626A7;
-  flex-grow: 4;
+  flex-grow: 3;
 }
 .section {
+  background-color: #ffffff;
+  flex-direction: row;
 }
 
 .new-class {

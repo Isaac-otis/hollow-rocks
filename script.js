@@ -1,4 +1,7 @@
- // We'll create two constants
+// my function is to rotate the font colors of the poems
+
+
+// We'll create two constants
 const sectionTag = document.querySelector("section");
 const button = document.querySelector("button");
 
