@@ -72,6 +72,7 @@ gif {
 button {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
+  background: #809EAC;
   border: none;
   color: #3626A7;
   padding: 10px 10px;
@@ -93,7 +94,7 @@ button {
   display: flex;
   flex-direction: column;
   flex-basis: auto;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .rocks {
   background-color: #ef3340;
@@ -110,13 +111,13 @@ button {
 
 @media screen and (min-width: 1000px) {
   .container {
-    flex-direction: row;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 1000px) {
   html {
     background-color: #36454F;
-    background-size: contain;
+    background-size: auto;
     background-repeat: no-repeat;
   }
 }
