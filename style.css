@@ -72,15 +72,15 @@ gif {
 button {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
-  background: #809EAC;
+  background: #3626A7;
   border: none;
-  color: #3626A7;
+  color: #ef3340;
   padding: 10px 10px;
   text-align: center;
   display: inline-block;
   margin: 4px 2px;
   max-width: 100px;
-  transform: scaleX(-1.2)
+  transform: scaleX(-1.2);
 }
 .holy-grail-wrapper {
   display: flex;
@@ -101,18 +101,21 @@ button {
   background-color: #809EAC;
   flex-grow: 1;
 }
-.desert{
+.desert {
   background-color: #3626A7;
   flex-grow: 3;
 }
-.section {}
+.section {
+}
 
 .new-class {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
   width: 100%;
   padding: 25px;
   background-color: coral;
   color: white;
-  font-size: 25px;
+  font-size: auto;
   box-sizing: border-box;
 }
 @media screen and (min-width: 1000px) {
@@ -138,13 +141,12 @@ button {
 
 .ticker {
   display: flex;
-
 }
 .ticker__list {
   display: flex;
   margin-top: 20px;
   animation: ticker 5s infinite linear;
-}  
+}
 .ticker__item {
 }
 body {
