@@ -5,7 +5,7 @@
 const sectionTag = document.querySelector("section");
 const button = document.querySelector("button");
 
-button.onclick =function(){"section"};
+button.onclick =12function(){"section"};
 button.addEventListener("click",function() {
 
   sectionTag.classList.toggle("new-class");
@@ -25,3 +25,8 @@ const clone = list.cloneNode(true)
 
 // then we keep appending our list inside the ticker
 ticker.append(clone)
+
+
+
+//NICOLE DON'T WORRY I WILL HAVE THIS IN GITHUB!
+
