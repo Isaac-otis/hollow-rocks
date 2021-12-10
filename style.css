@@ -17,6 +17,7 @@ body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
+    overflow-x: hidden;
 }
 
 /* images and videos max out at full width */
@@ -107,7 +108,7 @@ button {
 }
 .section {}
 
-.mystyle {
+.new-class {
   width: 100%;
   padding: 25px;
   background-color: coral;
@@ -126,4 +127,27 @@ button {
     background-size: auto;
     background-repeat: no-repeat;
   }
+}
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* this prevents the page from scrolling horizontally */
+.ticker {
+  display: flex;
+  flex-direction: row;
+}
+.ticker__list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  animation: ticker 15s infinite linear;
+}  
+.ticker__item {
+  margin-right: 10px;
 }
