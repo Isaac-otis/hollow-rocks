@@ -29,7 +29,7 @@ video {
 h1 {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
-  font-size: 18px;
+  font-size: auto;
   color: #3626A7;
   width: 400px;
   opacity: 1;
@@ -39,43 +39,28 @@ h1 {
   line-height: 2;
 }
 h2 {
-  position: center;
-  max-width: 50%;
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-size: auto;
+  color: #ef3340;
+  width: 400px;
+  opacity: 1;
+  position: relative;
+  left: 50px;
+  transform: scaleX(1.2);
+  line-height: 2;
 }
 h3 {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
-  font-size: 18px;
-  color: #ef3340;
-  width: 550px;
+  font-size: auto;
+  color: #809EAC;
+  width: 400px;
   opacity: 1;
+  position: relative;
+  left: 50px;
   transform: scaleX(1.2);
   line-height: 2;
-  position: relative;
-  left: 200px;
-}
-h4 {
-  font-family: "Roboto Mono", monospace;
-  font-style: italic;
-  font-size: 26px;
-  color: white;
-  width: 550px;
-  opacity: 1;
-  transform: scaleX(1.2);
-  line-height: 2;
-  position: relative;
-  left: 200px;
-}
-header {
-  background-color: #ffffff;
-  opacity: 1%;
-}
-.rocks {
-  background-color: #ef3340;
-  width: 800px;
-}
-.river {
-  background-color: #809EAC;
 }
 desert {
   background-color: #3626A7;
@@ -84,16 +69,9 @@ gif {
   position: sticky;
   max-width: 50%;
 }
-/* Padding */
-header,
-.rocks,
-.river,
-desert {
-  padding: 1em;
-}
-section {
-}
 button {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
   border: none;
   color: #3626A7;
   padding: 10px 10px;
@@ -103,9 +81,7 @@ button {
   margin: 4px 2px;
   cursor: help;
   max-width: 100px;
-  font-family: "Roboto Mono", monospace;
-  font-style: italic;
-  transform: scaleX(-1.2);
+  transform: scaleX(-1.2)
 }
 
 .holy-grail-wrapper {
@@ -114,18 +90,22 @@ button {
   min-height: 100vh;
 }
 .container {
-  border: 2px solid white;
   display: flex;
   flex-direction: column;
   flex-basis: auto;
   justify-content: space-between;
 }
+.rocks {
+  background-color: #ef3340;
+  flex-grow: 2;
+}
 .river {
+  background-color: #809EAC;
   flex-grow: 1;
 }
-.rocks,
-.ads {
-  flex: 0 0 12em;
+.desert{
+  background-color: #3626A7;
+  flex-grow: 3;
 }
 
 @media screen and (min-width: 1000px) {
