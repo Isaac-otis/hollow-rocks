@@ -62,9 +62,6 @@ h3 {
   transform: scaleX(1.2);
   line-height: 2;
 }
-desert {
-  background-color: #3626A7;
-}
 gif {
   position: sticky;
   max-width: 50%;
@@ -95,7 +92,7 @@ button {
 }
 .rocks {
   background-color: #ef3340;
-  flex-grow: 2;
+  flex-grow: 3;
 }
 .river {
   background-color: #809EAC;
@@ -103,7 +100,7 @@ button {
 }
 .desert {
   background-color: #3626A7;
-  flex-grow: 3;
+  flex-grow: 4;
 }
 .section {
 }

@@ -7,6 +7,10 @@ button.addEventListener("click", function() {
   sectionTag.classList.toggle("new-class");
 
 })
+
+
+
+
 // we set up 3 constants
 // 1. the ticker wrapper (the area where the images are scrolling)
 // 2. the list of items
