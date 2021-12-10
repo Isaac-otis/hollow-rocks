@@ -70,9 +70,6 @@ header {
   background-color: #ffffff;
   opacity: 1%;
 }
-.container {
-  border: 2px solid white;
-}
 .rocks {
   background-color: #ef3340;
   width: 800px;
@@ -94,12 +91,25 @@ header,
 desert {
   padding: 1em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .holy-grail-wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 .container {
+  border: 2px solid white;
   display: flex;
   flex-direction: column;
   flex-basis: auto;
