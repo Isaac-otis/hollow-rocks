@@ -92,18 +92,21 @@ desert {
   padding: 1em;
 }
 section {
-  
 }
-
-
-
-
-
-
-
-
-
-
+button {
+  border: none;
+  color: #3626A7;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: help;
+  max-width: 100px;
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  transform: scaleX(-1.2);
+}
 
 .holy-grail-wrapper {
   display: flex;
