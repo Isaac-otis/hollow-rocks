@@ -123,7 +123,7 @@ button {
     flex-flow: row wrap;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1600px) {
   html {
     background-color: #36454F;
     background-size: auto;
