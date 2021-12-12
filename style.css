@@ -62,10 +62,6 @@ h3 {
   transform: scaleX(1.2);
   line-height: 1;
 }
-gif {
-  position: sticky;
-  max-width: 50%;
-}
 button {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
@@ -145,7 +141,9 @@ button {
 .ticker__list {
   display: flex;
   margin-top: 20px;
-  animation: ticker 5s infinite linear;
+  animation: ticker 1s infinite;
+
+  
 }
 .ticker__item {
 }
