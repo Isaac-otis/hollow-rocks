@@ -1,7 +1,7 @@
 /* a minimalist set of CSS resets */
 
 /* default to border-box */
-html {
+/* html {
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -31,7 +31,7 @@ p {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
   font-size: 300px;
-  color: #ef3340;
+  color: black;
   width: initial;
   position: relative;
   right: 50px;
@@ -42,7 +42,7 @@ h1 {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
   font-size: auto;
-  color: #EF3340;
+  color: green;
   width: initial;
   opacity: 1;
   position: relative;
@@ -54,7 +54,7 @@ h2 {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
   font-size: auto;
-  color: #809EAC;
+  color: white;
   width: initial;
   opacity: 1;
   position: relative;
@@ -66,7 +66,7 @@ h3 {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
   font-size: auto;
-  color: #3626A7;
+  color: red;
   width: initial;
   opacity: 1;
   position: relative;
@@ -126,7 +126,7 @@ button {
 .section {
   background-color: #ffffff;
   flex-direction: row;
-}
+} */
 
 .ticker-wrap {
   width: 100%;
