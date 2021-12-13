@@ -1,0 +1,174 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 50%;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-size: 300px;
+  color: #ef3340;
+  width: initial;
+  position: relative;
+  right: 50px;
+  transform: scaleX(7);
+  line-height: 2;
+}
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-size: auto;
+  color: #EF3340;
+  width: initial;
+  opacity: 1;
+  position: relative;
+  left: 50px;
+  transform: scaleX(1.2);
+  line-height: 2;
+}
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-size: auto;
+  color: #809EAC;
+  width: initial;
+  opacity: 1;
+  position: relative;
+  left: 50px;
+  transform: scaleX(1.2);
+  line-height: 3;
+}
+h3 {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-size: auto;
+  color: #3626A7;
+  width: initial;
+  opacity: 1;
+  position: relative;
+  left: 50px;
+  transform: scaleX(1.2);
+  line-height: 1;
+}
+button {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-size: auto;
+  background: #39FF14;
+  color: #3626A7;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  max-width: auto;
+  transform: scaleX(-1.2);
+}
+.buttons {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-size: 15px;
+  color: #39FF14;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  max-width: auto;
+  transform: scaleY(1.1);
+}
+.column-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  justify-content: flex-start;
+  min-width: 100wh;
+}
+.rocks {
+  background-color: #3626A7;
+  flex-grow: 2;
+}
+.river {
+  background-color: #EF3340;
+  flex-grow: 1;
+}
+.desert {
+  background-color: #809EAC;
+  flex-grow: 3;
+}
+.section {
+  background-color: #ffffff;
+  flex-direction: row;
+}
+
+.ticker-wrap {
+  width: 100%;
+  padding: 4em;
+  background-color: #39FF14;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1000px) {
+  .container {
+    flex-flow: row wrap;
+  }
+}
+@media screen and (min-width: 1600px) {
+  html {
+    background-color: #36454F;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+}
+.ticker {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.ticker__list {
+  display: flex;
+  margin-top: 20px;
+  animation: ticker 1s infinite;
+}
+.ticker__item {
+  animation-name: spin;
+  animation-duration: 12000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
