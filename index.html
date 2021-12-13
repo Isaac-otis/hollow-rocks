@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
       rel="stylesheet"
@@ -12,83 +11,68 @@
     <title>Hello world!</title>
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
+    <link id="theme" rel="stylesheet" type="text/css" href="style.css" />
     <!-- import the webpage's javascript file -->
-    <script src="/script.js"></script>
+    <script src="script.js" defer></script>
   </head>
-  <body class="holy-grail-wrapper">
-    <header>
+  <button onclick="toggleTheme()">DON'T TOUCH</button>
+    <body class="column-wrapper">
+      <div class="container">
+        <div class="rocks">
+          <h1>
+            These rocks know all of your secrets your shame your joy. They pile
+            up one-by-one eroding ever-teenier until they are only more rocks–
+            just much smaller. Maybe our secrets shames and joys get smaller as
+            time goes on!
+          </h1>
+        </div>
+        <div class="river">
+          <h2>
+            There is a dried river bed running Where I left my physical body I
+            am no more real than sing songs And the breath as you gasp
+          </h2>
+        </div>
+        <div class="desert">
+          <h3>
+            In the desert lives a ten armed tentacled creature Who gobbles up
+            spoiled boys and girls He picks his teeth with their arms And
+            scratches his toes with their feet! Sometimes he isn’t good at his
+            job And snarfs a good kiddie or two
+          </h3>
+      </div>
+      </div>
+    </body>
+    <div class="ticker-wrap">
       <div class="ticker">
-        <div class="ticker__list">
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-01.png?v=1639122067871"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-02.png?v=1639122072366"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-03.png?v=1639122075661"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-04.png?v=1639122078661"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-05.png?v=1639122081476"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-06.png?v=1639122084426"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-07.png?v=1639122088595"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-08.png?v=1639122091693"
-            />
-          </div>
+        <div class="ticker__item">
+          <img
+            src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2Fcolor%20squares-01.png?v=1639363256029"
+          />
+        </div>
+        <div class="ticker__item">
+          <img
+            src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2Fcolor%20squares-02.png?v=1639363665641"
+          />
+        </div>
+        <div class="ticker__item">
+          <img
+            src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2Fcolor%20squares-03.png?v=1639363728191"
+          />
+        </div>
+        <div class="ticker__item">
+          <img
+            src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2Fcolor%20squares-04.png?v=1639363729885"
+          />
+        </div>
+        <div class="ticker__item">
+          <img
+            src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2Fcolor%20squares-05.png?v=1639363732252"
+          />
         </div>
       </div>
-    </header>
-    <div class="container">
-      <button onclick="function()">REMIX</button>
-      <nav class="rocks">
-        <h1>
-          These rocks know all of your secrets your shame your joy. They pile up
-          one-by-one eroding ever-teenier until they are only more rocks– just
-          much smaller. Maybe our secrets shames and joys get smaller as time
-          goes on!
-        </h1>
-      </nav>
-      <main class="river">
-        <h2>
-          There is a dried river bed running Where I left my physical body I am
-          no more real than sing songs And the breath as you gasp
-        </h2>
-      </main>
-      <footer class="desert">
-        <h3>
-          In the desert lives a ten armed tentacled creature Who gobbles up
-          spoiled boys and girls He picks his teeth with their arms And
-          scratches his toes with their feet! Sometimes he isn’t good at his job
-          And snarfs a good kiddie or two
-        </h3>
-      </footer>
     </div>
-  </body>
-  <footer></footer>
+    <section>
+      <p>Click the button to hide</p>
+    </section>
+  </div>
 </html>
